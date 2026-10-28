@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "gumlung12-multiling_jd444"
+version = "0.1.0"
+description = "把候选项映射到类别上，算出多语言模型工程师·注意力核��的访存瓶颈的覆盖率并列出未覆盖的类别"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { file = "LICENSE" }
+authors = [{ name = "gumlung12" }]
+keywords = ["ai", "llm", "cli", "analysis"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Environment :: Console",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+    "Topic :: Utilities",
+]
+
+[project.urls]
+Homepage = "https://gumlung12.github.io"
+Repository = "https://github.com/gumlung12/multiling_jd444"
+Issues = "https://github.com/gumlung12/multiling_jd444/issues"
+
+[project.scripts]
+multiling_jd444 = "multiling_jd444:main"
+
+[tool.setuptools]
+py-modules = ["multiling_jd444"]
